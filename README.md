@@ -1,5 +1,9 @@
 # json_formatter
 
+Um simples app que formata strings JSON em um formato mais legível.
+
+Projeto clone [deste site](https://jsonformatter.curiousconcept.com/), de finalidade semelhante.
+
 ## Project setup
 ```
 npm install

@@ -4,6 +4,16 @@ Um simples app que formata strings JSON em um formato mais legível.
 
 Projeto clone [deste site](https://jsonformatter.curiousconcept.com/), de finalidade semelhante.
 
+Finalizado e hospedado no Heroku, [aqui](https://my-json-formatter.herokuapp.com/)
+
+## Stack
+
+- vue
+- bootstrap-vue
+- vue-clipboard2
+
+![screenshot](screenshot/01.png)
+
 ## Project setup
 ```
 npm install

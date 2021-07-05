@@ -1,4 +1,4 @@
-# json_formatter
+# json-formatter
 
 Um simples app que formata strings JSON em um formato mais legível.
 

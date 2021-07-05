@@ -6,13 +6,13 @@ Projeto clone [deste site](https://jsonformatter.curiousconcept.com/), de finali
 
 Finalizado e hospedado no Heroku, [aqui](https://my-json-formatter.herokuapp.com/)
 
+![screenshot](screenshot/01.png)
+
 ## Stack
 
 - vue
 - bootstrap-vue
 - vue-clipboard2
-
-![screenshot](screenshot/01.png)
 
 ## Project setup
 ```

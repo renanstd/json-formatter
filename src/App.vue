@@ -1,17 +1,9 @@
 <template>
   <div id="app">
-    <h1>Hello world!</h1>
+    <h1>JSON Formatter</h1>
+    <Formatter/>
   </div>
 </template>
-
-<script>
-
-export default {
-  name: 'App',
-  components: {
-  }
-}
-</script>
 
 <style>
 #app {
@@ -20,6 +12,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 </style>
+
+<script>
+import Formatter from '@/components/Formatter.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Formatter
+  }
+}
+</script>

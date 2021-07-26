@@ -59,8 +59,12 @@ export default {
   methods: {
     convert() {
       let content = this.to_convert
+
       // Converte aspas simples em aspas duplas
       content = content.replaceAll("'", "\"")
+      // Altera valores "None" (python) em "null"
+      content = content.replaceAll("None", null)
+
       try {
         const json_object = JSON.parse(content)
         this.converted = JSON.stringify(json_object, null, 4)
@@ -68,19 +72,24 @@ export default {
         this.converted = "Invalid JSON"
       }
     },
+
     onCopy: function () {
       this.show_alert()
     },
+
     onError: function (e) {
       alert('Failed to copy the text to the clipboard')
       console.log(e)
     },
+
     countdown_changed(dismiss_countdown) {
       this.dismiss_countdown = dismiss_countdown
     },
+
     show_alert() {
       this.dismiss_countdown = this.dismiss_secs
     },
+
   }
 }
 </script>

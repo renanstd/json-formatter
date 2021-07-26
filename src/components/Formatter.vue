@@ -14,6 +14,7 @@
       <b-col cols="6">
         <span>Here's your beautiful json</span>
         <b-form-textarea
+          id="result"
           v-model="converted"
           rows="30"
           plaintext
@@ -42,6 +43,12 @@
     </b-row>
   </b-container>
 </template>
+
+<style scoped>
+#result {
+  font-family: monospace;
+}
+</style>
 
 <script>
 export default {

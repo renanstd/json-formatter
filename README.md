@@ -1,5 +1,7 @@
 # json-formatter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68791a70-6b76-46d9-ae7f-0135ae802d98/deploy-status)](https://app.netlify.com/sites/amazing-json-formatter/deploys)
+
 Um simples app que formata strings JSON em um formato mais legível.
 
 Projeto clone [deste site](https://jsonformatter.curiousconcept.com/), de finalidade semelhante.

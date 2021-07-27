@@ -17,6 +17,7 @@
           id="result"
           v-model="converted"
           rows="30"
+          wrap="off"
           plaintext
         ></b-form-textarea>
 

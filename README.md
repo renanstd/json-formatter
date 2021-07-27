@@ -4,7 +4,7 @@ Um simples app que formata strings JSON em um formato mais legível.
 
 Projeto clone [deste site](https://jsonformatter.curiousconcept.com/), de finalidade semelhante.
 
-Finalizado e hospedado no Heroku, [aqui](https://my-json-formatter.herokuapp.com/).
+Finalizado e hospedado no [Heroku](https://my-json-formatter.herokuapp.com/), e no [Netlify](https://amazing-json-formatter.netlify.app/)
 
 ![screenshot](screenshot/01.png)
 

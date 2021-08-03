@@ -1,6 +1,7 @@
 # json-formatter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/68791a70-6b76-46d9-ae7f-0135ae802d98/deploy-status)](https://app.netlify.com/sites/amazing-json-formatter/deploys)
+[![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D)](https://vuejs.org/)
 
 Um simples app que formata strings JSON em um formato mais legível.
 

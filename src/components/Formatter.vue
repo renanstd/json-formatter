@@ -74,6 +74,8 @@ export default {
       content = content.replaceAll("None", null)
       // Altera valores "True" (python) para "true"
       content = content.replaceAll("True", true)
+      // Altera valores "False" (python) para "false"
+      content = content.replaceAll("False", false)
 
       try {
         const json_object = JSON.parse(content)

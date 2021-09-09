@@ -42,6 +42,15 @@
       </b-col>
 
     </b-row>
+
+    <br/>
+    <br/>
+
+    <b-row>
+      <b-col>
+        <Footer/>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -52,8 +61,11 @@
 </style>
 
 <script>
+import Footer from '@/components/Footer.vue'
+
 export default {
   name: "Formatter",
+  components: {Footer},
 
   data() {
     return {

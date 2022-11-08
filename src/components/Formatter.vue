@@ -29,16 +29,6 @@
         >
           Copy
         </b-button>
-
-        <b-alert
-          :show="dismiss_countdown"
-          dismissible
-          fade
-          variant="success"
-          @dismiss-count-down="countdown_changed"
-        >
-          Content copied to clipboard
-        </b-alert>
       </b-col>
 
     </b-row>
@@ -71,8 +61,6 @@ export default {
     return {
       to_convert: null,
       converted: null,
-      dismiss_secs: 3,
-      dismiss_countdown: 0,
     }
   },
 
@@ -98,20 +86,12 @@ export default {
     },
 
     onCopy: function () {
-      this.show_alert()
+      this.$bvToast.toast("Content copied to clipboard", {autoHideDelay: 5000})
     },
 
     onError: function (e) {
       alert('Failed to copy the text to the clipboard')
       console.log(e)
-    },
-
-    countdown_changed(dismiss_countdown) {
-      this.dismiss_countdown = dismiss_countdown
-    },
-
-    show_alert() {
-      this.dismiss_countdown = this.dismiss_secs
     },
 
   }

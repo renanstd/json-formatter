@@ -86,7 +86,10 @@ export default {
     },
 
     onCopy: function () {
-      this.$bvToast.toast("Content copied to clipboard", {autoHideDelay: 5000})
+      this.$bvToast.toast(
+        "Content copied to clipboard",
+        {autoHideDelay: 5000, title: "Success"}
+      )
     },
 
     onError: function (e) {
